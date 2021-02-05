@@ -1,0 +1,11 @@
+name: LocatePlayer
+version: 1.0.1
+main: me.nate.locateplayer.LocatePlayer
+api-version: 1.16
+authors: [ Gk01234 ]
+description: A command to get the coordanites of a player
+commands:
+  locateplayer:
+    description: locates specified player
+    usage: /locateplayer(or /lp) <player>
+    aliases: lp
