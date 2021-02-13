@@ -23,7 +23,7 @@ public class LocatePlayerCmd implements CommandExecutor {
             String plsy = String.valueOf(Math.round(pl.getY()));
             String plsx = String.valueOf(Math.round(pl.getX()));
             String plsz = String.valueOf(Math.round(pl.getZ()));
-            String pls = plsy+", "+plsx+", "+plsz;
+            String pls = plsx+", "+plsy+", "+plsz;
             if (sender instanceof Player) {
                 Player s = (Player) sender;
                 if (di == NORMAL) {

@@ -1,5 +1,5 @@
 name: LocatePlayer
-version: 1.1
+version: 1.1.1
 main: me.nate.locateplayer.LocatePlayer
 api-version: 1.16
 authors: [ Gk01234 ]
